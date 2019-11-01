@@ -1,12 +1,15 @@
 /* navbar starts */
 body {
   font-family: "Lato", sans-serif;
+  background-color: white;
 }
+
 
 .container {
   padding-left: 10px;
   padding-right: 10px;
 }
+
 
 .navbar {
   width: 100%;
@@ -14,6 +17,8 @@ body {
   padding-right: 0;
   margin-left: auto;
   margin-right: auto;
+
+
 }
 .navbar-brand {
   height: 50%;
@@ -22,96 +27,110 @@ body {
 .navbar-nav {
   margin-left: auto;
   padding-left: 0;
+  padding-right: 10px;
+
 }
 .nav-item {
   margin-right: 20px;
   letter-spacing: 1px;
   text-transform: uppercase;
   font-weight: 400;
+  padding-right: 10px;
+
 }
 /* navbar ends */
 
 /* body start */
-
-.carousel-item {
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: -12;
+  min-width: 100%; 
+  min-height: 100%;
+  max-height: 140%;
   /* max-width: 100%; */
-  /* min-width: 100%; */
-  /* max-height: 700px; */
-  position: center center;
-}
-#carouselExampleIndicators {
-  /* max-width: 100%; */
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
-.print-services-container {
-  align-content: center;
-  /* max-width: 900px; */
-}
-.print-services-icon {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 150px;
-  max-width: 100%;
-  max-height: 100%;
-}
-.print-service-header {
+
+.contact-header {
   font-size: 24px;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 100px;
+  color: white;
 }
-.service-copy {
+.contact-sub-header {
+  font-size: 18px;
   text-align: center;
-  max-width: 1200px;
-  padding-left: 50px;
-  padding-right: 50px;
-  line-height: 1.2;
-  margin-top: 40px;
+  padding-top: 10px;
+  color: white;
+
+}
+ /* form starts */
+.form-container {
+  min-width: 300px;
+  max-width: 600px;
+  background-color: rgb(252, 236, 207);
+  margin-left: auto;
+  margin-right: auto;
+  height: 550px;
   margin-bottom: 100px;
+  margin-top: 50px;
+}
+ form {
+  width: 100%;
+  padding: 40px;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  
+}
+
+input[type=submit] {
+  /* background-color: #d46327;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  min-width: 200px;
+  max-width: 520px; */
+  display: block;
+  width: 200px;
+  height: 40px;
+  border-radius: 30px;
+  margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 80px;
+  background-color: #d5621a;
+  border: none;
+  color: white;
 }
 
-.pricing-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  max-width: 1100px;
-  margin-left: auto;
-  margin-right: auto;
-  /* background-color: rgb(248, 247, 247); */
+input[type=submit]:hover {
+  background-color: #7a3512;
 }
 
-.print-price-1 {
-  /* background-color: rgb(248, 247, 247); */
-  height: 180px;
-  width: 300px;
-}
-.print-header {
-  font-weight: 800;
-  text-align: center;
-  margin-top: 30px;
-  margin-bottom: 20px;
-}
-.price {
-  color: red;
-}
-ul li {
-  margin: 5px;
-  font-weight: 300;
-}
 
-.note {
-  text-align: center;
-  margin-top: 30px;
-  margin-bottom: 50px;
-}
+
 /* body end */
 
 /* footer start */
 .footer {
-  height: 700px;
+  height: 300px;
   background-color: black;
 }
 .footer-text {
@@ -137,33 +156,28 @@ ul li {
   line-height: 1.6;
 }
 .footer-email-us-button {
-    display: block;
-    width: 150px;
-    height: 40px;
-    border-radius: 30px;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 80px;
-    background-color: #d5621a;
-    border: none;
-    color: white;
+  display: block;
+  width: 150px;
+  height: 40px;
+  border-radius: 30px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 80px;
 }
 
-.hr-line {
-  border-top: 1px solid white;
-  max-width: 90%;
-}
+
 
 .footer-info {
   align-content: center;
 }
+
 .footer-brand {
   display: block;
   margin-left: auto;
   margin-right: auto;
   line-height: 1.2;
-  margin-top: 80px;
+  padding-top: 40px;
   margin-bottom: 20px;
 }
 .footer-tabs {

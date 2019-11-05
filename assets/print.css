@@ -51,7 +51,7 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 150px;
+  margin-top: 80px;
   max-width: 100%;
   max-height: 100%;
 }
@@ -67,7 +67,7 @@ body {
   padding-right: 50px;
   line-height: 1.2;
   margin-top: 40px;
-  margin-bottom: 100px;
+  margin-bottom: 40px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -93,9 +93,11 @@ body {
   text-align: center;
   margin-top: 30px;
   margin-bottom: 20px;
+  line-height: 1.6;
+
 }
 .price {
-  color: red;
+    color: #d5621a;
 }
 ul li {
   margin: 5px;
@@ -104,7 +106,7 @@ ul li {
 
 .note {
   text-align: center;
-  margin-top: 30px;
+  /* margin-top: 30px; */
   margin-bottom: 50px;
 }
 /* body end */
@@ -136,9 +138,9 @@ ul li {
   text-align: center;
   line-height: 1.6;
 }
-.footer-email-us-button {
+.footer-button {
     display: block;
-    width: 150px;
+    width: 200px;
     height: 40px;
     border-radius: 30px;
     margin-top: 20px;
@@ -148,7 +150,16 @@ ul li {
     background-color: #d5621a;
     border: none;
     color: white;
-}
+  }
+  button a {
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+  }
+  button :hover {
+    color: white;
+    text-decoration: none;
+  }
 
 .hr-line {
   border-top: 1px solid white;

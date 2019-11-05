@@ -112,39 +112,65 @@ body {
 /* hero ends */
 
 /* body start */
-.body-thumbnails {
+.body-thumbnails-row1 {
   background-color: white;
-  /* margin-top: 100px;
-  margin-bottom: 100px; */
-  /* height: 800px; */
-  /* padding-top: 100px;
-  padding-bottom: 100px; */
-}
-.thumbnail-container {
+  padding-top: 100px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   max-width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  min-height: 100%;
-  max-height: 140%;
-  /* max-width: 100%; */
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-
 }
-.thumbnail_images {
-  min-width: 30%;
-max-width: 100%;
+.body-thumbnails-row2 {
+  background-color: white;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 100%;
 }
 
 
+.container-1 {
+  position: relative;
+  min-width: 20%;
+}
 
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
 
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(0, 0, 0, 0.8);
+}
 
+.container-1:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
 
 
 
@@ -155,6 +181,7 @@ max-width: 100%;
 .footer {
   height: 700px;
   background-color: black;
+  
 }
 .footer-text {
   padding-top: 80px;
@@ -178,9 +205,11 @@ max-width: 100%;
     text-align: center;
     line-height: 1.6;
   }
-.footer-email-us-button {
+
+  
+  .footer-button {
     display: block;
-    width: 150px;
+    width: 200px;
     height: 40px;
     border-radius: 30px;
     margin-top: 20px;
@@ -190,6 +219,15 @@ max-width: 100%;
     background-color: #d5621a;
     border: none;
     color: white;
+  }
+  button a {
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+  }
+  button :hover {
+    color: white;
+    text-decoration: none;
   }
 
 .hr-line {

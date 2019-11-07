@@ -27,7 +27,6 @@ body {
 .navbar-nav {
   margin-left: auto;
   padding-left: 0;
-  padding-right: 10px;
 
 }
 .nav-item {
@@ -217,3 +216,26 @@ li {
   margin-bottom: 20px;
 }
 /* footer end */
+
+@media screen and (min-device-width: 375px) and (max-device-width: 768px) {
+  .contact-header {
+    margin-top: 20px;
+  }
+  .footer-main-header {
+      font-size: 28px;
+    }
+    .footer-sub-copy {
+      font-size: 18px;
+    }
+    .footer-copy-right {
+     margin-bottom: 20px;
+    }
+    .footer {
+      height: 750px;
+      background-color: black;
+      bottom: 0;
+      padding-bottom: 50px;
+    }
+
+}
+

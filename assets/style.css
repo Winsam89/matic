@@ -35,7 +35,7 @@ body {
 
 /* hero starts */
 .hero {
-  height: 100vh;
+  height: 736px;
   width: 100vw;
   /* background-image: url("images/hero.jpg"); */
   background-position: center;
@@ -74,7 +74,7 @@ body {
 }
 
 .hero-main-header {
-  font-size: 60px;
+  font-size: 40px;
   margin-bottom: 20px;
   color: white;
   text-align: center;
@@ -84,7 +84,7 @@ body {
 
 .hero-sub-copy {
   color: white;
-  font-size: 30px;
+  font-size: 26px;
   font-weight: 300;
   text-align: center;
   line-height: 1.6;

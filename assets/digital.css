@@ -226,22 +226,22 @@ font-weight: 300;
   }
   
   .footer-social {
-      display: inline;
-      margin-left: auto;
-      margin-right: auto;
-      height: 40px;
-      margin-left: auto;
-      margin-right: auto;
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+    margin-bottom: 20px;
   
   }
+  
   .ig {
-      margin-right: 16px;
+    margin-right: 16px;
   }
   li {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-bottom: 20px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
   }
   /* footer end */
   
